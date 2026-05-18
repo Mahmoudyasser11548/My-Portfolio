@@ -57,7 +57,7 @@ Feel free to reach out or explore my work:
 
 - **GitHub:** [github.com/mahmoudyasser](https://github.com/mahmoudyasser) *(update with your actual link)*
 - **LinkedIn:** [linkedin.com/in/mahmoudyasser](https://linkedin.com/in/mahmoudyasser) *(update with your actual link)*
-- **Email:** your@email.com *(update with your actual email)*
+- **Email:** mahmoudyasser11548@gmail.com
 
 ---
 
