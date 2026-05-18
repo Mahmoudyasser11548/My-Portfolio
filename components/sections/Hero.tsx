@@ -193,12 +193,15 @@ export default function Hero() {
             textAlign: "center",
           }}
         >
-          {stats.map((item) => (
+          {stats.map((item, index) => (
             <div
               key={item.label}
               style={{
                 padding: "clamp(1rem, 2vw, 1.75rem) 0",
-                borderBottom: "1px solid rgba(255,255,255,0.07)",
+                borderBottom:
+                  index < stats.length - 1
+                    ? "1px solid rgba(255,255,255,0.07)"
+                    : "none",
               }}
             >
               <div

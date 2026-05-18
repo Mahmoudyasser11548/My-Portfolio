@@ -41,7 +41,11 @@ body {
   min-width: 320px;
   background:
     radial-gradient(circle at top, rgba(0, 255, 136, 0.08), transparent 32%),
-    radial-gradient(circle at 80% 20%, rgba(0, 255, 136, 0.04), transparent 24%),
+    radial-gradient(
+      circle at 80% 20%,
+      rgba(0, 255, 136, 0.04),
+      transparent 24%
+    ),
     linear-gradient(180deg, #050508 0%, #07070c 45%, #050508 100%);
   color: var(--text);
   font-family: var(--font-body);
@@ -134,7 +138,11 @@ button {
 .section-card {
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.02)
+  );
   backdrop-filter: blur(18px);
   box-shadow: var(--shadow-soft);
 }
@@ -263,7 +271,6 @@ button {
   justify-content: space-between;
   gap: 1rem;
   padding: 0.8rem 1rem;
-  border-radius: 999px;
 }
 
 .nav-links {
@@ -291,13 +298,11 @@ button {
 .hamburger {
   width: 3rem;
   height: 3rem;
-  border-radius: 999px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.04);
+  background: transparent;
   color: var(--text);
-  border: 1px solid var(--border);
   cursor: pointer;
 }
 
@@ -314,7 +319,10 @@ button {
   height: 2px;
   border-radius: 999px;
   background: currentColor;
-  transition: transform 220ms ease, opacity 220ms ease, top 220ms ease;
+  transition:
+    transform 220ms ease,
+    opacity 220ms ease,
+    top 220ms ease;
 }
 
 .hamburger-lines span:nth-child(1) {
@@ -388,7 +396,12 @@ button {
 .scroll-progress__fill {
   width: 100%;
   border-radius: inherit;
-  background: linear-gradient(180deg, #6dffbc 0%, var(--accent) 45%, #00cc6a 100%);
+  background: linear-gradient(
+    180deg,
+    #6dffbc 0%,
+    var(--accent) 45%,
+    #00cc6a 100%
+  );
   box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
   transition: height 120ms linear;
 }
@@ -518,7 +531,11 @@ button {
   top: 0.35rem;
   bottom: 0.35rem;
   width: 1px;
-  background: linear-gradient(180deg, rgba(0, 255, 136, 0.55), rgba(255, 255, 255, 0.06));
+  background: linear-gradient(
+    180deg,
+    rgba(0, 255, 136, 0.55),
+    rgba(255, 255, 255, 0.06)
+  );
 }
 
 .timeline-card {

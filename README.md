@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hi, I'm Mahmoud Yasser 👋
 
-## Getting Started
+**Frontend Software Engineer** — building modern, high-performance web and mobile applications with a strong focus on clean architecture, scalable UI systems, and exceptional user experience.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 About Me
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I specialize in crafting scalable, responsive, and maintainable user interfaces. With hands-on experience across both web and mobile platforms, I bring a performance-first mindset and a deep care for the details that make products feel great to use.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Currently focused on **advanced frontend architecture**, **real-time applications**, and **high-performance UI engineering**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+### Languages & Frameworks
+- **React** & **Next.js** — component-driven UIs and server-side rendering
+- **TypeScript** — type-safe, reliable codebases
+- **React Native** & **Expo** — cross-platform mobile development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### State Management
+- Redux Toolkit
+- React Query
+- Recoil
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### UI & Styling
+- Material UI (MUI)
+- Tailwind CSS
 
-## Deploy on Vercel
+### Integrations & APIs
+- REST APIs
+- SignalR (real-time communication)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Specializations
+- Form systems & validation
+- Dashboards & admin panels
+- Scalable UI architecture
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📂 Portfolio Highlights
+
+This portfolio showcases a collection of projects demonstrating my expertise in:
+
+- ⚡ High-performance React & Next.js web apps
+- 📱 React Native mobile applications
+- 🔄 Real-time features using SignalR
+- 🗂️ Complex admin dashboards and data-heavy UIs
+- 🧱 Scalable frontend architecture patterns
+
+---
+
+## 📫 Contact
+
+Feel free to reach out or explore my work:
+
+- **GitHub:** [github.com/mahmoudyasser](https://github.com/mahmoudyasser) *(update with your actual link)*
+- **LinkedIn:** [linkedin.com/in/mahmoudyasser](https://linkedin.com/in/mahmoudyasser) *(update with your actual link)*
+- **Email:** your@email.com *(update with your actual email)*
+
+---
+
+> *"Clean code, smooth UX, and scalable systems — that's the standard I build to."*

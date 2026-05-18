@@ -15,7 +15,7 @@ const socialLinks = [
 
 export default function Nav() {
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState("about");
+  const [activeSection, setActiveSection] = useState("#");
   const shouldReduceMotion = useReducedMotion();
 
   useEffect(() => {
@@ -63,7 +63,7 @@ export default function Nav() {
     <>
       <header className="nav-shell">
         <div className="nav-inner">
-          <nav className="nav-bar glass-panel" aria-label="Primary">
+          <nav className="nav-bar" aria-label="Primary">
             <Link
               href="/"
               style={{
@@ -127,7 +127,6 @@ export default function Nav() {
                 }}
               >
                 <div>
-                  <div className="eyebrow">Navigation</div>
                   <div
                     style={{
                       marginTop: 6,
@@ -164,7 +163,10 @@ export default function Nav() {
                     <a
                       key={link}
                       href={`#${id}`}
-                      onClick={(event) => handleScroll(event, id)}
+                      onClick={(event) => {
+                        handleScroll(event, id);
+                        setActiveSection(id);   
+                      }}
                       style={{
                         color: activeSection === id ? "#00ff88" : "#e8e8f0",
                         textDecoration: "none",
@@ -209,7 +211,9 @@ export default function Nav() {
                   <a
                     key={item.label}
                     href={item.href}
-                    target={item.href.startsWith("mailto:") ? undefined : "_blank"}
+                    target={
+                      item.href.startsWith("mailto:") ? undefined : "_blank"
+                    }
                     rel="noopener noreferrer"
                     style={{
                       display: "flex",
