@@ -55,8 +55,8 @@ This portfolio showcases a collection of projects demonstrating my expertise in:
 
 Feel free to reach out or explore my work:
 
-- **GitHub:** [github.com/mahmoudyasser](https://github.com/mahmoudyasser) *(update with your actual link)*
-- **LinkedIn:** [linkedin.com/in/mahmoudyasser](https://linkedin.com/in/mahmoudyasser) *(update with your actual link)*
+- **GitHub:** [github.com/mahmoudyasser](https://github.com/Mahmoudyasser11548)
+- **LinkedIn:** [linkedin.com/in/mahmoudyasser](https://www.linkedin.com/in/mahmoud-yasser-dev/) 
 - **Email:** mahmoudyasser11548@gmail.com
 
 ---
