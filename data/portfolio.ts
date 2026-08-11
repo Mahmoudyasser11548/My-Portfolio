@@ -11,7 +11,7 @@ export const summary =
   "Frontend Software Engineer with 2+ years of experience building scalable web and mobile applications using React and React Native. Proven ability to develop high-performance dashboards and admin panels with a strong focus on maintainability, clean architecture, and user experience.";
 
 export const stats = [
-  { value: "2+", label: "Years Experience" },
+  { value: "3", label: "Years Experience" },
   { value: "20+", label: "Projects Delivered" },
   { value: "5k+", label: "Hours Worked" },
 ];
@@ -47,21 +47,22 @@ export const experience = [
     role: "Frontend Developer",
     duration: "Nov 2023 - Present",
     achievements: [
-      "Built scalable dashboards and mobile apps serving thousands of users",
-      "Developed reusable component library, cutting development time by 40%",
-      "Implemented Jest testing suites, significantly reducing production bugs",
-      "Integrated REST APIs and optimized data-fetching strategies for high-performance UX",
-      "Led performance optimization and improved Core Web Vitals across all products",
+      "Developed Loyalty & Rewards and Customer Engagement platforms across web and mobile applications",
+      "Modernized and upgraded legacy platforms, improving maintainability, scalability, and user experience",
+      "Developed ROI mobile applications for tobacco promotion campaigns, including promotions, rewards, and prize features",
+      "Built Supervisor Survey applications for field teams to collect and manage survey data digitally",
+      "Developed scalable frontend solutions using React.js, React Native, TypeScript, and Next.js",
     ],
   },
   {
-    company: "White Clouds Aviation",
+    company: "White Cloud Aviation",
     role: "Frontend Developer",
-    duration: "Jul 2024 - Sep 2024",
+    duration: "1 Year 6 Months",
     achievements: [
-      "Built a fully responsive luxury aviation booking platform with polished UI",
-      "Improved UX through iterative design feedback and accessibility enhancements",
-      "Ensured cross-browser compatibility across all major browsers and device types",
+      "Developed a private jet booking and reservation platform for clients to reserve private aviation services",
+      "Built internal reservation management and email notification features for employees",
+      "Developed responsive and reusable UI components using React.js, TypeScript, and Material UI",
+      "Integrated frontend applications with backend APIs and implemented reliable booking workflows",
     ],
   },
 ];
@@ -69,32 +70,62 @@ export const experience = [
 export const skills = [
   {
     category: "Frontend",
-    items: ["React", "Next.js", "React Native", "TypeScript", "JavaScript"],
-  },
-  {
-    category: "State Management",
-    items: ["Redux", "Redux Toolkit", "Recoil", "Context API"],
-  },
-  {
-    category: "Styling",
     items: [
-      "Tailwind CSS",
-      "Sass / SCSS",
-      "Framer Motion",
-      "Bootstrap",
-      "CSS Modules",
+      "React.js",
+      "React Native",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "CSS / Sass",
     ],
   },
   {
-    category: "Tools & Testing",
+    category: "State Management",
     items: [
-      "Jest",
+      "Redux Toolkit",
+      "React Query",
+      "Recoil",
+      "Context API",
+    ],
+  },
+  {
+    category: "UI & Styling",
+    items: [
+      "Material UI",
+      "PrimeReact",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Framer Motion",
+    ],
+  },
+  {
+    category: "APIs & Forms",
+    items: [
       "REST APIs",
-      "Git",
+      "Axios",
       "Formik",
       "React Hook Form",
-      "Axios",
+    ],
+  },
+  {
+    category: "Testing & DevOps",
+    items: [
+      "Jest",
+      "CI/CD",
+      "Git",
+      "GitHub",
+    ],
+  },
+  {
+    category: "Other",
+    items: [
       "Figma",
+      "Problem Solving",
+      "Analytical Thinking",
+      "Team Collaboration",
+      "Communication",
+      "Continuous Learning",
     ],
   },
 ];
