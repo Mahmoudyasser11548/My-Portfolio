@@ -8,7 +8,7 @@ export const meta = {
 };
 
 export const summary =
-  "Frontend Software Engineer with 2+ years of experience building scalable web and mobile applications using React and React Native. Proven ability to develop high-performance dashboards and admin panels with a strong focus on maintainability, clean architecture, and user experience.";
+  "Frontend Software Engineer with 3 years of experience building scalable web and mobile applications using React and React Native. Proven ability to develop high-performance dashboards and admin panels with a strong focus on maintainability, clean architecture, and user experience.";
 
 export const stats = [
   { value: "3", label: "Years Experience" },
